@@ -1,0 +1,35 @@
+{
+    "name": "xuey490/log",
+    "description": "A custom logging library for FssPHP Framework based on Monolog with file size rotation support.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "log",
+        "logger",
+        "monolog",
+        "fssphp"
+    ],
+    "authors": [
+        {
+            "name": "xuey863toy",
+            "email": "xuey863toy@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "monolog/monolog": "^3.9",
+        "psr/log": "^3.0",
+        "symfony/http-foundation": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Framework\\Log\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "support": {
+        "issues": "https://github.com/xuey490/project/issues",
+        "source": "https://github.com/xuey490/project"
+    }
+}
