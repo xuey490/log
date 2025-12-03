@@ -1,6 +1,6 @@
 
-这是一个可以基于monolog开发的，可以自动分割日志的类库。
-日志自动按大小分片保存，超过大小后自动分割，并保留指定天数的日志
+这是一个可以基于monolog开发的，可以自动分割日志的类库。日志自动按大小分片保存，超过大小后自动分割，并保留指定天数的日志
+
 A custom logging library for FssPHP Framework based on Monolog with file size rotation support.
 
 
