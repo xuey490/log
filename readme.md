@@ -19,7 +19,8 @@ $config = [
     'log_channel'   => 'my-app',
     'log_path'      => __DIR__ . '/storage/logs',
     'log_size'      => 10 * 1024 * 1024, // 10MB
-    'log_keep_days' => 15
+    'log_keep_days' => 15,
+    'log_date_format' => 'Y-m-d H:i:s',
 ];
 
 $logger = new LoggerService($config);
