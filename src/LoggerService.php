@@ -18,6 +18,7 @@ namespace Framework\Log;
 
 use Monolog\Handler\FilterHandler;
 use Monolog\Logger as MonoLogger;
+use Monolog\Formatter\LineFormatter;
 use Psr\Log\LoggerInterface;
 use Stringable;
 use Symfony\Component\HttpFoundation\Request;
